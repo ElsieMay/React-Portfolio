@@ -76,6 +76,7 @@
         }
       }
     }
+    /* Adds hyperlink text on hover */
     a.about-link {
       &:after {
         content: 'ABOUT';
@@ -95,6 +96,30 @@
       svg {
         // color: #cb8589;
         color: white;
+      }
+    }
+  }
+  /* Styling for Github, Linkedin and Twitter icon links */
+  ul {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: block;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+
+    li {
+      a {
+        padding: 7px 0;
+        display: block;
+        font-size: 22px;
+        line-height: 30px;
+        /* Adds colour on hover */
+        &:hover svg {
+          color: white;
+        }
       }
     }
   }
