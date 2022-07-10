@@ -1,5 +1,6 @@
-import DisplayPhoto from '../../assets/images/Elsie_image.jpg'
+import LogoTitle from '../../assets/images/Elsie-E.png'
 import { Link } from 'react-router-dom'
+import './index.scss'
 
 const Home = () => {
   return (
@@ -7,13 +8,13 @@ const Home = () => {
       <div className="text-area">
         <h1>
           Hi, <br /> I'm
-          <img src={DisplayPhoto} alt="developer-image" />
-          Elsie Lawrie
+          <img src={LogoTitle} alt="developer-lettering" />
+          lsie Lawrie
           <br />
           Junior Full Stack Developer
         </h1>
-        <h2>Digital Designer || Junior Full Stack Developer</h2>
-        <Link to="/contact" className="button">
+        <h2>Digital Designer || Javascript Enthusiast </h2>
+        <Link to="/contact" className="flat-button">
           Contact Me
         </Link>
       </div>
