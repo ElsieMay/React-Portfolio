@@ -1,8 +1,12 @@
-// Imports sass file
+import Sidebar from './Sidebar'
 import './index.scss'
 
 const Layout = () => {
-  return <h1>Elsie Lawrie</h1>
+  return (
+    <>
+      <Sidebar />
+    </>
+  )
 }
 // exports layout function
 export default Layout
