@@ -15,7 +15,7 @@ const Home = () => {
         </h1>
         <h2>Digital Designer || Javascript Enthusiast </h2>
         <Link to="/contact" className="flat-button">
-          Contact Me
+          CONTACT ME
         </Link>
       </div>
     </div>

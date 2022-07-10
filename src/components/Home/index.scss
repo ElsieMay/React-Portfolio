@@ -1,4 +1,5 @@
 .home-page {
+  /* Styling for text-area of homepage */
   .text-area {
     position: absolute;
     left: 10%;
@@ -7,11 +8,12 @@
     width: 40%;
     max-height: 90%;
   }
+  /* H1 properties */
   h1 {
     font-size: 53px;
     margin: 0;
     font-weight: 400;
-
+    /* Psuedo elements for interaction with page */
     &::before {
       content: '<h1>';
       color: #ecbeb4;
@@ -31,7 +33,7 @@
       animation: fadeIn 1s 1.7s backwards;
       opacity: 0.6;
     }
-
+    /* Styles logo */
     img {
       width: 100px;
       margin-left: 20px;
@@ -41,13 +43,33 @@
       animation-delay: 1.4s;
     }
   }
-}
-
-h2 {
-  color: #ecbeb4;
-  margin-top: 20px;
-  font-weight: 400;
-  font-size: 18px;
-  letter-spacing: 3px;
-  animation: fadeIn 1s 1.8s backwards;
+  /* H2 properties */
+  h2 {
+    color: #ecbeb4;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+  /* Contact button properties */
+  .flat-button {
+    margin-left: 225px;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 8px;
+    text-decoration: none;
+    padding: 10px 35px;
+    border: 1px solid #ecbeb4;
+    margin-top: 25px;
+    float: left;
+    animation: fadeIn 1s 1.8s backwards;
+    white-space: nowrap;
+    /* Psuedo element for on hover */
+    &:hover {
+      background: #ecbeb4;
+      color: #171f38;
+    }
+  }
 }
