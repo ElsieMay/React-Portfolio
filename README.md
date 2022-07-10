@@ -76,3 +76,4 @@ https://www.npmjs.com/package/@fortawesome/react-fontawesome
 https://v5.reactrouter.com/web/api/Route
 https://stackoverflow.com/questions/41676054/how-to-add-fonts-to-create-react-app-based-projects
 https://github.com/react-boilerplate/react-boilerplate/issues/1340
+https://forum.webdeveloper.com/d/274289-beginner-question-why-use-ltbodygt-and-lthtmlgt-tags
