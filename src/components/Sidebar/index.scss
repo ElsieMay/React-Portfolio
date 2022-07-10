@@ -15,12 +15,13 @@
   /* Styles logo images */
   img {
     display: block;
+    text-align: center;
     margin: 8px auto;
     width: 150px;
     height: auto;
 
     &.sub-logo {
-      width: 170px;
+      width: 175px;
     }
   }
   /* Navbar icon styling */
@@ -34,11 +35,11 @@
     width: 100%;
     /* Styles icons */
     a {
-      font-size: 25px;
+      font-size: 30px;
       color: white;
       display: block;
       line-height: 51px;
-      height: 75px;
+      height: 90px;
       position: relative;
       text-decoration: none;
       /* Transitions for icons */
@@ -47,7 +48,7 @@
       }
       /* Changes colour on hover */
       &:hover {
-        color: #eabdc3;
+        color: #ecbeb4;
 
         svg {
           opacity: 0;
@@ -59,10 +60,10 @@
       /* Changes state after pressing for all icons */
       &:after {
         content: '';
-        font-size: 18px;
+        font-size: 22px;
         letter-spacing: 2px;
         position: absolute;
-        bottom: 20px;
+        bottom: 35px;
         display: block;
         width: 100%;
         text-align: center;
@@ -83,6 +84,17 @@
     a.contact-link {
       &:after {
         content: 'CONTACT';
+      }
+    }
+    a.portfolio-link {
+      &:after {
+        content: 'PORTFOLIO';
+      }
+    }
+    a.active {
+      svg {
+        // color: #cb8589;
+        color: white;
       }
     }
   }

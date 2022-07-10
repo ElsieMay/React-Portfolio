@@ -6,8 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
-  faYoutube,
-  faSkype,
+  faTwitter,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
@@ -24,15 +23,47 @@ const Sidebar = () => (
     </Link>
     <nav>
       <NavLink exact="true" activeclassname="active" to="/">
-        <FontAwesomeIcon icon={faHome} color="white" />
+        <FontAwesomeIcon icon={faHome} color="#8690b4" />
       </NavLink>
       <NavLink activeclassname="active" className="about-link" to="/about">
-        <FontAwesomeIcon icon={faUser} color="white" />
+        <FontAwesomeIcon icon={faUser} color="#8690b4" />
+      </NavLink>
+      <NavLink
+        activeclassname="active"
+        className="portfolio-link"
+        to="/portfolio"
+      >
+        <FontAwesomeIcon icon={faSuitcase} color="#8690b4" />
       </NavLink>
       <NavLink activeclassname="active" className="contact-link" to="/contact">
-        <FontAwesomeIcon icon={faEnvelope} color="white" />
+        <FontAwesomeIcon icon={faEnvelope} color="#8690b4" />
       </NavLink>
     </nav>
+    <ul>
+      <li>
+        <a
+          target="blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/elsie-lawrie-090371b5/"
+        >
+          <FontAwesomeIcon icon={faLinkedin} color="#8690b4" />
+        </a>
+      </li>
+      <li>
+        <a target="blank" rel="noreferrer" href="https://github.com/ElsieMay">
+          <FontAwesomeIcon icon={faGithub} color="#8690b4" />
+        </a>
+      </li>
+      <li>
+        <a
+          target="blank"
+          rel="noreferrer"
+          href="https://twitter.com/ElsieLawrie"
+        >
+          <FontAwesomeIcon icon={faTwitter} color="#8690b4" />
+        </a>
+      </li>
+    </ul>
   </div>
 )
 
