@@ -1,5 +1,7 @@
 import LogoTitle from '../../assets/images/Elsie-E.png'
 import DisplayImage from '../../assets/images/Elsie_image.jpg'
+import AnimatedLetters from '../AnimatedLetters'
+import Loader from 'react-loaders'
 import { Link } from 'react-router-dom'
 import './index.scss'
 import { useEffect, useState } from 'react'
@@ -42,7 +44,11 @@ const Home = () => {
     <div className="container home-page">
       <div className="text-area">
         <h1>
-          Hi, <br /> I'm
+          <span className={letterClass}>H</span>
+          <span className={`${letterClass} _12`}>i,</span>
+          <br />
+          <span className={`${letterClass} _13`}>I</span>
+          <span className={`${letterClass} _14`}>'m</span>
           <img src={LogoTitle} alt="developer-lettering" />
           <AnimatedLetters
             letterClass={letterClass}
