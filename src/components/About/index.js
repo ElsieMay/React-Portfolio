@@ -1,6 +1,16 @@
 import AnimatedLetters from '../AnimatedLetters'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import './index.scss'
+import {
+  faAngular,
+  faCss3,
+  faGitAlt,
+  faHtml5,
+  faJsSquare,
+  faReact,
+} from '@fortawesome/free-brands-svg-icons'
+import Loader from 'react-loaders'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -25,6 +35,13 @@ const About = () => {
           I am currently seeking a developer position where I can learn, grow
           and contribute as best possible.
         </p>
+      </div>
+      <div className="stage-cube-cont">
+        <div className="cubespinner">
+          <div className="face1">
+            <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+          </div>
+        </div>
       </div>
     </div>
   )
