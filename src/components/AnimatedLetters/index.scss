@@ -8,6 +8,7 @@
   animation-fill-mode: forwards;
   min-width: 10px;
 }
+
 /* For loop for looping through job title letters individually */
 @for $i from 1 through 50 {
   .text-animate._#{$i} {

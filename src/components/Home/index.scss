@@ -2,7 +2,7 @@
   /* Styling for text-area of homepage */
   .text-area {
     position: absolute;
-    left: 10%;
+    left: 50%;
     top: 50%;
     transform: translateY(-50%);
     width: 40%;
@@ -74,6 +74,7 @@
   }
   /* Display image properties */
   .Image {
+    left: 10%;
     width: 50vh;
     position: absolute;
     margin: 80px 100px 100px 200px;
