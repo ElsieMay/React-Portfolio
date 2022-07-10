@@ -5,7 +5,7 @@ $primary-color: #ffd700;
 /* Imports font from assets */
 @font-face {
   font-family: 'Krylon';
-  src: local('MyFont'), url('./assets/fonts/Krylon-Regular.otf') format('otf');
+  src: url('./assets/fonts/Krylon-Regular.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

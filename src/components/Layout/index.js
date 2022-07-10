@@ -2,11 +2,7 @@
 import './index.scss'
 
 const Layout = () => {
-  return (
-    <>
-      <h1>Hello World</h1>
-    </>
-  )
+  return <h1>Elsie Lawrie</h1>
 }
 // exports layout function
 export default Layout

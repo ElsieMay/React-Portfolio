@@ -5,7 +5,8 @@ html {
 body {
   margin: 0;
   font: 300 11px/1.4 'Krylon', sans-serif;
-  color: #444;
+  /* font: 300 11px/1.4, sans-serif; */
+  color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #171f38;
