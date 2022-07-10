@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f5fbec7b.css",
+    "main.js": "/static/js/main.b45b83aa.js",
+    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "static/media/ELSIE-SUB-LOGO.png": "/static/media/ELSIE-SUB-LOGO.ffaf3fbd272e99be1b22.png",
+    "static/media/Elsie_image.jpg": "/static/media/Elsie_image.4a61132aec29f84dc103.jpg",
+    "static/media/EL-LOGO.png": "/static/media/EL-LOGO.d4dfc453594a4c26da27.png",
+    "static/media/Krylon-Regular.otf": "/static/media/Krylon-Regular.32a2691c25802e05c816.otf",
+    "index.html": "/index.html",
+    "main.f5fbec7b.css.map": "/static/css/main.f5fbec7b.css.map",
+    "main.b45b83aa.js.map": "/static/js/main.b45b83aa.js.map",
+    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5fbec7b.css",
+    "static/js/main.b45b83aa.js"
+  ]
+}
