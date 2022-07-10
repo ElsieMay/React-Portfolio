@@ -1,9 +1,26 @@
+/* Navbar compositions */
 .nav-bar {
   background: #424960;
-  width: 60px;
+  width: 170px;
   height: 100%;
   position: absolute;
   top: 0;
   z-index: 3;
   min-height: 500px;
+  /* Styles main logo */
+  .logo {
+    display: block;
+    padding: 8px, 0;
+  }
+  /* Styles images */
+  img {
+    display: block;
+    margin: 8px auto;
+    width: 150px;
+    height: auto;
+
+    &.sub-logo {
+      width: 170px;
+    }
+  }
 }
