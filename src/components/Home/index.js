@@ -1,4 +1,5 @@
 import LogoTitle from '../../assets/images/Elsie-E.png'
+import DisplayImage from '../../assets/images/Elsie_image.jpg'
 import { Link } from 'react-router-dom'
 import './index.scss'
 
@@ -17,6 +18,13 @@ const Home = () => {
         <Link to="/contact" className="flat-button">
           CONTACT ME
         </Link>
+      </div>
+      <div>
+        <img
+          className="Image"
+          src={DisplayImage}
+          alt="developer-display-image"
+        />
       </div>
     </div>
   )
