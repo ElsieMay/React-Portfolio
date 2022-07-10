@@ -1,8 +1,12 @@
 // Imports sass file
-import "./index.scss";
+import './index.scss'
 
 const Layout = () => {
-	return <>Hello World</>;
-};
+  return (
+    <>
+      <h1>Hello World</h1>
+    </>
+  )
+}
 // exports layout function
-export default Layout;
+export default Layout

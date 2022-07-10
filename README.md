@@ -73,3 +73,5 @@ https://www.w3schools.com/react/react_router.asp
 https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons
 https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons
 https://www.npmjs.com/package/@fortawesome/react-fontawesome
+https://v5.reactrouter.com/web/api/Route
+https://stackoverflow.com/questions/41676054/how-to-add-fonts-to-create-react-app-based-projects
