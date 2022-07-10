@@ -91,4 +91,10 @@
       }
     }
   }
+
+  .text-animate-hover {
+    &:hover {
+      color: #ecbeb4;
+    }
+  }
 }

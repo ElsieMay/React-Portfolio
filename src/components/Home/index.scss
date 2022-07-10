@@ -13,7 +13,7 @@
     font-size: 53px;
     margin: 0;
     font-weight: 400;
-    /* Psuedo elements for interaction with page */
+    /* Psuedo selectors for tags */
     &::before {
       content: '<h1>';
       color: #ecbeb4;
