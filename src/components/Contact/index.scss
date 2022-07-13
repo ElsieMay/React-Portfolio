@@ -1,9 +1,12 @@
+/* contact form */
 .form-contact {
   width: 100%;
   margin-top: 20px;
+  /* Styles list of inputs */
   ul {
     padding: 0;
     margin: 0;
+    /* Styles list of inputs */
     li {
       padding: 0;
       margin: 0;
@@ -28,6 +31,7 @@
       }
     }
   }
+  /* Styles email and name inputs */
   input[type='text'],
   input[type='email'] {
     width: 100%;
@@ -39,6 +43,7 @@
     padding: 0 20px;
     box-sizing: border-box;
   }
+  /*Styles textarea section */
   textarea {
     width: 100%;
     border: 0;
@@ -48,5 +53,21 @@
     padding: 20px;
     min-height: 145px;
     box-sizing: border-box;
+  }
+  /* Styles flat submit button */
+  .flat-button {
+    color: white;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid #5e62d3;
+    float: left;
+    border-radius: 4px;
+    background: 0 0;
+    text-transform: uppercase;
+    float: right;
+    text-align: center;
+    margin-right: 10px;
   }
 }
