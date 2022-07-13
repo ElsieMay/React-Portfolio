@@ -1,9 +1,25 @@
 import './index.scss'
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
+  const form = useRef()
+  const sendEmail = (e) => {
+    e.preventDefault()
+    emailjs
+      .sendForm('gmail', 'template_pqojd6z', form.current, 'x4Y1Xw6GUN6IgHFqt')
+      .then(
+        () => {
+          alert('Message successfully sent, thank you')
+          window.location.reload(false)
+        },
+        () => {
+          alert('Message failed to send, please try again')
+        }
+      )
+  }
   return (
     <>
       <div className="container contact-page">
@@ -20,7 +36,7 @@ const Contact = () => {
             below.
           </p>
           <div className="form-contact">
-            <form>
+            <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="first-half">
                   <input
