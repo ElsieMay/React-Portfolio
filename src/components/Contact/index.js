@@ -1,5 +1,5 @@
 import './index.scss'
-import React, { useRef, useState } from 'react'
+import { useRef, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import emailjs from '@emailjs/browser'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
@@ -9,18 +9,25 @@ const Contact = () => {
   const form = useRef()
   const sendEmail = (e) => {
     e.preventDefault()
+
     emailjs
-      .sendForm('gmail', 'template_pqojd6z', form.current, 'x4Y1Xw6GUN6IgHFqt')
+      .sendForm(
+        'service_1ctygbl',
+        'template_pqojd6z',
+        form.current,
+        'x4Y1Xw6GUN6IgHFqt'
+      )
       .then(
         () => {
-          alert('Message successfully sent, thank you')
+          alert('Message successfully sent!')
           window.location.reload(false)
         },
         () => {
-          alert('Message failed to send, please try again')
+          alert('Failed to send the message, please try again')
         }
       )
   }
+
   return (
     <>
       <div className="container contact-page">
