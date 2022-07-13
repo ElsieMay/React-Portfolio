@@ -1,6 +1,6 @@
 import './index.scss'
 import { Link, NavLink } from 'react-router-dom'
-import MainLogo from '../../assets/images/EL-LOGO.png'
+import MainLogo from '../../assets/images/Elsie-E.png'
 import SubLogo from '../../assets/images/ELSIE-SUB-LOGO.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -17,26 +17,34 @@ import {
 
 const Sidebar = () => (
   <div className="nav-bar">
-    <Link className="logo" to="/">
-      <img src={MainLogo} alt="logo" />
+    <Link className="logo" to="/react-portfolio/">
+      <img src={MainLogo} className="main-logo" alt="logo" />
       <img className="sub-logo" src={SubLogo} alt="subtitlelogo" />
     </Link>
     <nav>
-      <NavLink exact="true" activeclassname="active" to="/">
-        <FontAwesomeIcon icon={faHome} color="#8690b4" />
+      <NavLink exact="true" activeclassname="active" to="/react-portfolio/">
+        <FontAwesomeIcon icon={faHome} color="white" />
       </NavLink>
-      <NavLink activeclassname="active" className="about-link" to="/about">
-        <FontAwesomeIcon icon={faUser} color="#8690b4" />
+      <NavLink
+        activeclassname="active"
+        className="about-link"
+        to="/react-portfolio/about"
+      >
+        <FontAwesomeIcon icon={faUser} color="white" />
       </NavLink>
       <NavLink
         activeclassname="active"
         className="portfolio-link"
-        to="/portfolio"
+        to="/react-portfolio/portfolio"
       >
-        <FontAwesomeIcon icon={faSuitcase} color="#8690b4" />
+        <FontAwesomeIcon icon={faSuitcase} color="white" />
       </NavLink>
-      <NavLink activeclassname="active" className="contact-link" to="/contact">
-        <FontAwesomeIcon icon={faEnvelope} color="#8690b4" />
+      <NavLink
+        activeclassname="active"
+        className="contact-link"
+        to="/react-portfolio/contact"
+      >
+        <FontAwesomeIcon icon={faEnvelope} color="white" />
       </NavLink>
     </nav>
     <ul>
@@ -46,12 +54,12 @@ const Sidebar = () => (
           rel="noreferrer"
           href="https://www.linkedin.com/in/elsie-lawrie-090371b5/"
         >
-          <FontAwesomeIcon icon={faLinkedin} color="#8690b4" />
+          <FontAwesomeIcon icon={faLinkedin} color="white" />
         </a>
       </li>
       <li>
         <a target="blank" rel="noreferrer" href="https://github.com/ElsieMay">
-          <FontAwesomeIcon icon={faGithub} color="#8690b4" />
+          <FontAwesomeIcon icon={faGithub} color="white" />
         </a>
       </li>
       <li>
@@ -60,7 +68,7 @@ const Sidebar = () => (
           rel="noreferrer"
           href="https://twitter.com/ElsieLawrie"
         >
-          <FontAwesomeIcon icon={faTwitter} color="#8690b4" />
+          <FontAwesomeIcon icon={faTwitter} color="white" />
         </a>
       </li>
     </ul>

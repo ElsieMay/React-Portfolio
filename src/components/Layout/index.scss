@@ -10,7 +10,7 @@
 }
 
 .tags {
-  color: #ecbeb4;
+  color: #5e62d3;
   opacity: 0.6;
   position: absolute;
   bottom: 0;
@@ -38,7 +38,8 @@
   animation-delay: 1s;
 }
 
-.about-page {
+.about-page,
+.contact-page {
   .text-area {
     position: absolute;
     left: 20%;
@@ -57,7 +58,7 @@
 
       &::before {
         content: '<h1>';
-        color: #ecbeb4;
+        color: #5e62d3;
         font-size: 18px;
         position: absolute;
         margin-top: -20px;
@@ -66,8 +67,8 @@
         opacity: 0.6;
       }
       &::after {
-        content: '<h1/>';
-        color: #ecbeb4;
+        content: '</h1>';
+        color: #5e62d3;
         font-size: 18px;
         position: absolute;
         margin-top: -20px;
@@ -94,7 +95,7 @@
 
   .text-animate-hover {
     &:hover {
-      color: #ecbeb4;
+      color: #5e62d3;
     }
   }
 }
