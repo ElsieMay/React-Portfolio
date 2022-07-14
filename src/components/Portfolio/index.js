@@ -4,6 +4,9 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import * as dat from 'dat.gui'
 
 const Portfolio = () => {
+  // Texture Loader
+  const textureLoader = new THREE.TextureLoader()
+
   // Debug
   const gui = new dat.GUI()
 
@@ -14,16 +17,16 @@ const Portfolio = () => {
   const scene = new THREE.Scene()
 
   // Objects
-  const geometry = new THREE.TorusGeometry(0.7, 0.2, 16, 100)
 
-  // Materials
+  const geometry = new THREE.PlaneBufferGeometry(2, 1)
 
-  const material = new THREE.MeshBasicMaterial()
-  material.color = new THREE.Color(0xff0000)
-
-  // Mesh
-  const sphere = new THREE.Mesh(geometry, material)
-  scene.add(sphere)
+  for (let i = 0; i < 2; i++) {
+    const material = new THREE.MeshBasicMaterial({
+      map: textureLoader.load(`/projects/${i}.jpg`),
+    })
+    const img = new THREE.Mesh(geometry, material)
+    scene.add(img)
+  }
 
   // Lights
 
@@ -71,8 +74,8 @@ const Portfolio = () => {
   scene.add(camera)
 
   // Controls
-  // const controls = new OrbitControls(camera, canvas)
-  // controls.enableDamping = true
+  const controls = new OrbitControls(camera, canvas)
+  controls.enableDamping = true
 
   /**
    * Renderer
@@ -93,10 +96,9 @@ const Portfolio = () => {
     const elapsedTime = clock.getElapsedTime()
 
     // Update objects
-    sphere.rotation.y = 0.5 * elapsedTime
 
     // Update Orbital Controls
-    // controls.update()
+    controls.update()
 
     // Render
     renderer.render(scene, camera)

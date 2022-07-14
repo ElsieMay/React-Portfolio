@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.0a7869ec.css",
-    "main.js": "/react-portfolio/static/js/main.6b46e674.js",
+    "main.js": "/react-portfolio/static/js/main.9935289d.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/ELSIE-SUB-LOGO.png": "/react-portfolio/static/media/ELSIE-SUB-LOGO.ffaf3fbd272e99be1b22.png",
     "static/media/Elsie_image.jpg": "/react-portfolio/static/media/Elsie_image.4a61132aec29f84dc103.jpg",
@@ -9,11 +9,11 @@
     "static/media/Krylon-Regular.otf": "/react-portfolio/static/media/Krylon-Regular.32a2691c25802e05c816.otf",
     "index.html": "/react-portfolio/index.html",
     "main.0a7869ec.css.map": "/react-portfolio/static/css/main.0a7869ec.css.map",
-    "main.6b46e674.js.map": "/react-portfolio/static/js/main.6b46e674.js.map",
+    "main.9935289d.js.map": "/react-portfolio/static/js/main.9935289d.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0a7869ec.css",
-    "static/js/main.6b46e674.js"
+    "static/js/main.9935289d.js"
   ]
 }
