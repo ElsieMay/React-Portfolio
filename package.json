@@ -43,6 +43,9 @@
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.7.3"
   },
+  "presets": [
+    "@babel/preset-react"
+  ],
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
