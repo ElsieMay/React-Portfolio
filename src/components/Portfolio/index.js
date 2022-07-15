@@ -2,9 +2,11 @@ import './index.scss'
 import Project from './Project.js'
 import AnimatedLetters from '../AnimatedLetters'
 import { useState } from 'react'
+// import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa'
 
-const Portfolio = () => {
+const Portfolio = ({ slides }) => {
   const [letterClass, setLetterClass] = useState('text-animate')
+
   return (
     <div className="portfolio-page">
       {' '}
@@ -16,7 +18,9 @@ const Portfolio = () => {
             idx={15}
           />
         </h1>
-        <Project />
+        {Project.map((slide, index) => {
+          return <div>{slide}</div>
+        })}
       </div>
     </div>
   )
