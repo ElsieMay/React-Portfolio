@@ -84,3 +84,4 @@ https://www.emailjs.com/docs/tutorial/creating-contact-form/
 https://react-leaflet.js.org/docs/api-map/
 https://threejs.org/docs/#api/en/geometries/PlaneGeometry
 https://codepen.io/sungaila/pen/LzMgjE
+https://stackoverflow.com/questions/63360033/how-do-i-create-a-download-file-link-in-react

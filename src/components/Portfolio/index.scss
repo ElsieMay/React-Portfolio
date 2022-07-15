@@ -1,0 +1,35 @@
+.portfolio-page {
+  .text-area {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+  }
+  h1 {
+    font-size: 53px;
+    margin: 0;
+    font-weight: 400;
+    /* Psuedo selectors for tags */
+    &::before {
+      content: '<h1>';
+      color: #5e62d3;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -20px;
+      left: 130px;
+      opacity: 0.6;
+    }
+    &::after {
+      content: '</h1>';
+      color: #5e62d3;
+      font-size: 18px;
+      position: absolute;
+      margin-top: 18px;
+      margin-left: 50px;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.6;
+    }
+  }
+}
