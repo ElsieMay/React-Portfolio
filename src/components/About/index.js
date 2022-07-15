@@ -1,4 +1,5 @@
 import AnimatedLetters from '../AnimatedLetters'
+import { Link, NavLink } from 'react-router-dom'
 import { useState } from 'react'
 import './index.scss'
 import {
@@ -36,6 +37,14 @@ const About = () => {
           I am currently seeking a developer position where I can learn, grow
           and contribute as best possible.
         </p>
+        <Link
+          to="../../assets/images/ELSIE LAWRIE RESUME.pdf"
+          target="_blank"
+          className="flat-button"
+          download
+        >
+          DOWNLOAD MY RESUME
+        </Link>
       </div>
       <div className="stage-cube-cont">
         <div className="cubespinner">
