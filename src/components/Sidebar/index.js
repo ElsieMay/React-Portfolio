@@ -23,28 +23,28 @@ const Sidebar = () => (
     </Link>
     <nav>
       <NavLink exact="true" activeclassname="active" to="/react-portfolio/">
-        <FontAwesomeIcon icon={faHome} color="white" />
+        <FontAwesomeIcon icon={faHome} color="white" className="icon" />
       </NavLink>
       <NavLink
         activeclassname="active"
         className="about-link"
         to="/react-portfolio/about"
       >
-        <FontAwesomeIcon icon={faUser} color="white" />
+        <FontAwesomeIcon icon={faUser} color="white" className="icon" />
       </NavLink>
       <NavLink
         activeclassname="active"
         className="portfolio-link"
         to="/react-portfolio/portfolio"
       >
-        <FontAwesomeIcon icon={faSuitcase} color="white" />
+        <FontAwesomeIcon icon={faSuitcase} color="white" className="icon" />
       </NavLink>
       <NavLink
         activeclassname="active"
         className="contact-link"
         to="/react-portfolio/contact"
       >
-        <FontAwesomeIcon icon={faEnvelope} color="white" />
+        <FontAwesomeIcon icon={faEnvelope} color="white" className="icon" />
       </NavLink>
     </nav>
     <ul>
@@ -54,12 +54,12 @@ const Sidebar = () => (
           rel="noreferrer"
           href="https://www.linkedin.com/in/elsie-lawrie-090371b5/"
         >
-          <FontAwesomeIcon icon={faLinkedin} color="white" />
+          <FontAwesomeIcon icon={faLinkedin} color="white" className="icon" />
         </a>
       </li>
       <li>
         <a target="blank" rel="noreferrer" href="https://github.com/ElsieMay">
-          <FontAwesomeIcon icon={faGithub} color="white" />
+          <FontAwesomeIcon icon={faGithub} color="white" className="icon" />
         </a>
       </li>
       <li>
@@ -68,7 +68,7 @@ const Sidebar = () => (
           rel="noreferrer"
           href="https://twitter.com/ElsieLawrie"
         >
-          <FontAwesomeIcon icon={faTwitter} color="white" />
+          <FontAwesomeIcon icon={faTwitter} color="white" className="icon" />
         </a>
       </li>
     </ul>

@@ -24,16 +24,29 @@
   }
   .main-logo {
     margin: 40px 40px 20px 60px;
+    // transform: rotateY(45deg);
+    animation: rotateAnimation 1s linear;
+  }
+  @keyframes rotateAnimation {
+    from {
+      transform: rotateY(45deg);
+    }
+    to {
+      transform: rotateY(225deg);
+    }
   }
 
   /* Navbar icon styling */
+  .icon {
+    width: 30px;
+  }
   nav {
     display: block;
     text-align: center;
     position: absolute;
     height: 210px;
     top: 50%;
-    margin-top: -145px;
+    margin-top: -170px;
     width: 100%;
     /* Styles icons */
     a {

@@ -34,13 +34,26 @@
       opacity: 0.6;
     }
     /* Styles logo */
-    img {
+    // img {
+    //   width: 70px;
+    //   margin-left: 10px;
+    //   opacity: 0;
+    //   height: auto;
+    //   animation: rotateIn 1s linear both;
+    //   animation-delay: 1.4s;
+    // }
+    .E-letter {
       width: 70px;
-      margin-left: 10px;
-      opacity: 0;
-      height: auto;
-      animation: rotateIn 1s linear both;
-      animation-delay: 1.4s;
+      transform: rotateY(45deg);
+      animation: rotateAnimation 1.5s linear infinite;
+    }
+    @keyframes rotateAnimation {
+      from {
+        transform: rotateY(45deg);
+      }
+      to {
+        transform: rotateY(225deg);
+      }
     }
   }
   /* H2 properties */

@@ -33,19 +33,19 @@
   }
   .face1 {
     transform: translateZ(100px);
-    color: #dd0031;
+    color: #e04451;
   }
   .face2 {
     transform: rotateY(90deg) translateZ(100px);
-    color: #f06529;
+    color: #c66f40;
   }
   .face3 {
     transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-    color: #28a4d9;
+    color: #2a44f2;
   }
   .face4 {
     transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
-    color: #5ed4f4;
+    color: #84d465;
   }
   .face5 {
     transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
@@ -53,7 +53,7 @@
   }
   .face6 {
     transform: rotateX(-90deg) translateZ(100px);
-    color: #ec4d28;
+    color: #a040d4;
   }
 }
 
