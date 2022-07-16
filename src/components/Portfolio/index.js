@@ -16,6 +16,7 @@ const Portfolio = () => {
             idx={15}
           />
         </h1>
+        <br></br>
         <>
           <Project />
         </>
