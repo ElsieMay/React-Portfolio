@@ -33,15 +33,7 @@
       animation: fadeIn 1s 1.7s backwards;
       opacity: 0.6;
     }
-    /* Styles logo */
-    // img {
-    //   width: 70px;
-    //   margin-left: 10px;
-    //   opacity: 0;
-    //   height: auto;
-    //   animation: rotateIn 1s linear both;
-    //   animation-delay: 1.4s;
-    // }
+
     .E-letter {
       width: 70px;
       transform: rotateY(45deg);
@@ -88,9 +80,56 @@
   /* Display image properties */
   .Image {
     left: 10%;
-    width: 45vh;
+    width: 30%;
     position: absolute;
     margin: 100px 100px 100px 200px;
     box-shadow: 10px 0px 40px 40px #0c0c37;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home-page {
+    text-align: center;
+    .text-area {
+      font-size: 15px;
+      left: 40vw;
+    }
+    .E-letter {
+      width: 30px;
+    }
+    h1 {
+      font-size: 20px;
+
+      font-weight: 400;
+      &::before {
+        content: '<h1>';
+        color: #5e62d3;
+        font-size: 18px;
+        // position: absolute;
+        margin-top: -20px;
+        left: 30px;
+        opacity: 0.6;
+      }
+      &::after {
+        content: '</h1>';
+        color: #5e62d3;
+        font-size: 18px;
+        // position: absolute;
+        margin-top: 18px;
+        margin-left: 1vw;
+        animation: fadeIn 1s 1.7s backwards;
+        opacity: 0.6;
+      }
+    }
+    .flat-button {
+      font-size: 15px;
+      margin-left: -10vw;
+      margin-top: 2vh;
+    }
+    .Image {
+      width: 50%;
+      box-shadow: 5px 0px 20px 10px #0c0c37;
+      margin-top: 415px;
+      left: -15vw;
+    }
   }
 }
