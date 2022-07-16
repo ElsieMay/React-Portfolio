@@ -17,9 +17,7 @@ const Portfolio = () => {
           />
         </h1>
         <>
-          {Project.map((slide, index) => {
-            return { slide }
-          })}
+          <Project />
         </>
       </div>
     </div>

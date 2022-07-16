@@ -85,3 +85,4 @@ https://react-leaflet.js.org/docs/api-map/
 https://threejs.org/docs/#api/en/geometries/PlaneGeometry
 https://codepen.io/sungaila/pen/LzMgjE
 https://stackoverflow.com/questions/63360033/how-do-i-create-a-download-file-link-in-react
+https://blog.devgenius.io/how-to-use-swiper-js-with-react-e2025e92ead3

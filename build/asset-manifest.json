@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.91ad4021.css",
-    "main.js": "/react-portfolio/static/js/main.5889fc48.js",
+    "main.css": "/react-portfolio/static/css/main.d24c91df.css",
+    "main.js": "/react-portfolio/static/js/main.a5153bf3.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/Untitled_ Jun 29, 2022 9_08 PM.mp4": "/react-portfolio/static/media/Untitled_ Jun 29, 2022 9_08 PM.47d61dedbc4e76e9d840.mp4",
     "static/media/ELSIE-SUB-LOGO.png": "/react-portfolio/static/media/ELSIE-SUB-LOGO.ffaf3fbd272e99be1b22.png",
@@ -11,12 +11,12 @@
     "static/media/Elsie-E.png": "/react-portfolio/static/media/Elsie-E.87278a65a3529f9f07be.png",
     "static/media/Krylon-Regular.otf": "/react-portfolio/static/media/Krylon-Regular.32a2691c25802e05c816.otf",
     "index.html": "/react-portfolio/index.html",
-    "main.91ad4021.css.map": "/react-portfolio/static/css/main.91ad4021.css.map",
-    "main.5889fc48.js.map": "/react-portfolio/static/js/main.5889fc48.js.map",
+    "main.d24c91df.css.map": "/react-portfolio/static/css/main.d24c91df.css.map",
+    "main.a5153bf3.js.map": "/react-portfolio/static/js/main.a5153bf3.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91ad4021.css",
-    "static/js/main.5889fc48.js"
+    "static/css/main.d24c91df.css",
+    "static/js/main.a5153bf3.js"
   ]
 }
