@@ -1,14 +1,9 @@
 .portfolio-page {
   .text-area {
-    // position: absolute;
-    // left: 30%;
-    // top: 20%;
-    // transform: translateY(-50%);
     margin-left: 20%;
     margin-top: 60px;
     text-align: center;
     width: 60%;
-    // max-height: 90%;
   }
   h1 {
     font-size: 53px;
@@ -19,8 +14,8 @@
       content: '<h1>';
       color: #5e62d3;
       font-size: 18px;
-      position: absolute;
       margin-top: -20px;
+      margin-right: 58px;
       left: 130px;
       opacity: 0.6;
     }
@@ -28,7 +23,6 @@
       content: '</h1>';
       color: #5e62d3;
       font-size: 18px;
-      position: absolute;
       margin-top: 18px;
       margin-left: 50px;
       animation: fadeIn 1s 1.7s backwards;

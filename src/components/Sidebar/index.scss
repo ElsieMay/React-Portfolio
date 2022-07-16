@@ -1,5 +1,6 @@
 /* Navbar compositions */
 .nav-bar {
+  display: flex;
   background: #0c0d39;
   box-shadow: 10px 0px 40px 20px #0c0c37;
   width: 170px;
@@ -35,7 +36,6 @@
       transform: rotateY(225deg);
     }
   }
-
   /* Navbar icon styling */
   .icon {
     width: 30px;
@@ -135,6 +135,32 @@
         &:hover svg {
           color: white;
         }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav-bar {
+    width: 80px;
+    box-shadow: 5px 0px 20px 10px #0c0c37;
+    img {
+      width: 35px;
+
+      &.sub-logo {
+        width: 90px;
+      }
+    }
+    .main-logo {
+      margin: 20px 30px 20px 28px;
+      // transform: rotateY(45deg);
+      animation: rotateAnimation 1s linear;
+    }
+    @keyframes rotateAnimation {
+      from {
+        transform: rotateY(45deg);
+      }
+      to {
+        transform: rotateY(225deg);
       }
     }
   }

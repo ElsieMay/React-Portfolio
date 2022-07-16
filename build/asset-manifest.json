@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.d24c91df.css",
-    "main.js": "/react-portfolio/static/js/main.a5153bf3.js",
+    "main.css": "/react-portfolio/static/css/main.83a1f9ca.css",
+    "main.js": "/react-portfolio/static/js/main.bef3be5f.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/Untitled_ Jun 29, 2022 9_08 PM.mp4": "/react-portfolio/static/media/Untitled_ Jun 29, 2022 9_08 PM.47d61dedbc4e76e9d840.mp4",
     "static/media/ELSIE-SUB-LOGO.png": "/react-portfolio/static/media/ELSIE-SUB-LOGO.ffaf3fbd272e99be1b22.png",
     "static/media/Elsie_image.jpg": "/react-portfolio/static/media/Elsie_image.4a61132aec29f84dc103.jpg",
+    "static/media/Untitled_ Jun 29, 2022 9_08 PM.mov": "/react-portfolio/static/media/Untitled_ Jun 29, 2022 9_08 PM.a5640955a2da191f81ab.mov",
     "static/media/Screen Shot 2022-07-14 at 1.43.22 pm.jpg": "/react-portfolio/static/media/Screen Shot 2022-07-14 at 1.43.22 pm.6ceb1575276f9ffd1fe8.jpg",
     "static/media/Screen Shot 2022-07-14 at 1.35.15 pm.jpg": "/react-portfolio/static/media/Screen Shot 2022-07-14 at 1.35.15 pm.ab91afae9265ea12dd3e.jpg",
     "static/media/Elsie-E.png": "/react-portfolio/static/media/Elsie-E.87278a65a3529f9f07be.png",
     "static/media/Krylon-Regular.otf": "/react-portfolio/static/media/Krylon-Regular.32a2691c25802e05c816.otf",
     "index.html": "/react-portfolio/index.html",
-    "main.d24c91df.css.map": "/react-portfolio/static/css/main.d24c91df.css.map",
-    "main.a5153bf3.js.map": "/react-portfolio/static/js/main.a5153bf3.js.map",
+    "main.83a1f9ca.css.map": "/react-portfolio/static/css/main.83a1f9ca.css.map",
+    "main.bef3be5f.js.map": "/react-portfolio/static/js/main.bef3be5f.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d24c91df.css",
-    "static/js/main.a5153bf3.js"
+    "static/css/main.83a1f9ca.css",
+    "static/js/main.bef3be5f.js"
   ]
 }
