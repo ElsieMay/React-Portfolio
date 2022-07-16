@@ -86,26 +86,28 @@ const Project = () => {
     >
       {projects.map((project, index) => (
         <SwiperSlide className="slide" key={index}>
-          <h2 className="title">{project.title}</h2>
-          <br></br>
-          <h2>{project.techStack} </h2>
-          <br></br>
-          <div>
-            <img
-              className="Image"
-              src={project.image}
-              alt="developer-portfolio-image"
-            />
-          </div>
-          <p className="blurb">{project.desc}</p>
-          <br></br>
-          <div className="links">
-            <a href={project.repo} className="github-link">
-              See Github Code
-            </a>
-            <a href={project.deployedLink} className="github-link">
-              See Deployed Code
-            </a>
+          <div className="slide-container">
+            <h2 className="title">{project.title}</h2>
+            <br></br>
+            <h2>{project.techStack} </h2>
+            <br></br>
+            <div>
+              <img
+                className="Image"
+                src={project.image}
+                alt="developer-portfolio-image"
+              />
+            </div>
+            <p className="blurb">{project.desc}</p>
+            <br></br>
+            <div className="links">
+              <a href={project.repo} className="github-link">
+                See Github Code
+              </a>
+              <a href={project.deployedLink} className="github-link">
+                See Deployed Code
+              </a>
+            </div>
           </div>
         </SwiperSlide>
       ))}{' '}
