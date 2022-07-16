@@ -22,6 +22,11 @@
 .bottom-tag-html {
   margin-left: -40px;
 }
+@media screen and (max-width: 768px) {
+  .tags {
+    display: none;
+  }
+}
 
 .container {
   width: 100%;

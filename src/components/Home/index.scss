@@ -88,10 +88,10 @@
 }
 @media screen and (max-width: 768px) {
   .home-page {
-    text-align: center;
+    margin-top: 5px;
     .text-area {
       font-size: 15px;
-      left: 40vw;
+      left: 43vw;
     }
     .E-letter {
       width: 30px;
@@ -123,12 +123,13 @@
     .flat-button {
       font-size: 15px;
       margin-left: -10vw;
-      margin-top: 2vh;
+      // margin-top: 100vh;
+      margin-top: 350px;
     }
     .Image {
       width: 50%;
       box-shadow: 5px 0px 20px 10px #0c0c37;
-      margin-top: 415px;
+      margin-top: 370px;
       left: -15vw;
     }
   }
