@@ -141,6 +141,9 @@
 @media screen and (max-width: 768px) {
   .nav-bar {
     width: 80px;
+    background: red;
+    // added by blake
+    display: none;
     box-shadow: 5px 0px 20px 10px #0c0c37;
     img {
       width: 35px;
