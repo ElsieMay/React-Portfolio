@@ -3,7 +3,7 @@
   .text-area {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 52%;
     transform: translateY(-50%);
     width: 40%;
     max-height: 90%;
@@ -92,10 +92,11 @@
     .text-area {
       font-size: 15px;
       left: 43vw;
+      .E-letter {
+        width: 35px;
+      }
     }
-    .E-letter {
-      width: 30px;
-    }
+
     h1 {
       font-size: 20px;
 
@@ -123,14 +124,12 @@
     .flat-button {
       font-size: 15px;
       margin-left: -10vw;
-      // margin-top: 100vh;
-      margin-top: 350px;
+      margin-top: 240px;
     }
     .Image {
-      width: 50%;
       box-shadow: 5px 0px 20px 10px #0c0c37;
-      margin-top: 370px;
-      left: -15vw;
+      margin-top: 350px;
+      left: -6vw;
     }
   }
 }
